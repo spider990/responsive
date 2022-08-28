@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\home.css">
+    <link rel="stylesheet" href="css\sidebar.css">
+    <link rel="stylesheet" href="css\responsive.css">
+    <link rel="stylesheet" href="css\preloader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css" integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js" integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js" integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>WeatherSpy</title>
+</head>
+<body >
+
+    <div class="preloader">
+        <h1 style="color: #4646cc;">Loading...</h1>
+        <div class="col"></div>
+        <div class="col2"></div>
+        <div class="col3"></div>
+        <div class="col4"></div>
+        <div class="col5"></div>
+        <div class="col6"></div>
+        <div class="col7"></div>
+    </div>
+   
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&tdot;</a>
+    <a href="index.html">Home</a>
+    <a href="purchase.html">Sign up</a>
+    <a href="about.html">About</a>
+</div>
+
+
+  
+
+<div class="container" id="main">  
+ 
+    <div class="backcolor"><img class="back" src="https://images.pexels.com/photos/268941/pexels-photo-268941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" height="100%" width="100%" style="opacity: 0.3;"></div>
+    
+      <span onclick="openNav()"><i class="fas fa-dot-circle"></i></span>
+    <header>
+        <div class="serv">
+            
+            <h2>The best weather forcasting app</h2>
+            <h4>Spy corp.</h4>
+        </div>
+        <h1>WeatherSpy</h1>
+        
+
+        <div class="preview">
+            <i class="fas fa-cloud-sun">Check the weather efficiently with us</i>
+        </div>
+        <div class="panel">
+         <div class="right">
+            <div class="pg">
+                <h1>Our app weather app is now avaliable on andriods and IOS</h1>
+                <div class="phones">
+                <i class="fas fa-mobile-android"></i>
+                <i class="fas fa-mobile-button"></i>
+                <i class="fas fa-smile-wink fa-bounce"></i>
+                </div>
+            </div>
+         </div>
+         <div class="left">
+            <div class="bene">
+                <h2>Comaptiblity</h2><i class="fas fa-arrow-up-right-dots" style="font-size: 20px;"></i>
+                <p>Works perfectly on every opeaerting system including Windows, Linux, Ubunto..</p>
+                <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M3.765,46.362l19.836,2.873V30.257H3.765V46.362z M3.765,27.546h19.836V8.566L3.765,11.439V27.546z M26.312,49.628   l26.616,3.855V30.257H26.312V49.628z M26.312,8.172v19.374h26.616V4.319L26.312,8.172z"/></g></svg>
+                <?xml version="1.0" ?><svg viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm52.7 93c8.8-15.2 28.3-20.5 43.5-11.7 15.3 8.8 20.5 28.3 11.7 43.6-8.8 15.2-28.3 20.5-43.5 11.7-15.3-8.9-20.5-28.4-11.7-43.6zM87.4 287.9c-17.6 0-31.9-14.3-31.9-31.9 0-17.6 14.3-31.9 31.9-31.9 17.6 0 31.9 14.3 31.9 31.9 0 17.6-14.3 31.9-31.9 31.9zm28.1 3.1c22.3-17.9 22.4-51.9 0-69.9 8.6-32.8 29.1-60.7 56.5-79.1l23.7 39.6c-51.5 36.3-51.5 112.5 0 148.8L172 370c-27.4-18.3-47.8-46.3-56.5-79zm228.7 131.7c-15.3 8.8-34.7 3.6-43.5-11.7-8.8-15.3-3.6-34.8 11.7-43.6 15.2-8.8 34.7-3.6 43.5 11.7 8.8 15.3 3.6 34.8-11.7 43.6zm.3-69.5c-26.7-10.3-56.1 6.6-60.5 35-5.2 1.4-48.9 14.3-96.7-9.4l22.5-40.3c57 26.5 123.4-11.7 128.9-74.4l46.1.7c-2.3 34.5-17.3 65.5-40.3 88.4zm-5.9-105.3c-5.4-62-71.3-101.2-128.9-74.4l-22.5-40.3c47.9-23.7 91.5-10.8 96.7-9.4 4.4 28.3 33.8 45.3 60.5 35 23.1 22.9 38 53.9 40.2 88.5l-46 .6z"/></svg>
+                <?xml version="1.0" ?><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M12.503 0c-.155 0-.315.008-.479.021-4.227.333-3.106 4.807-3.17 6.298-.077 1.093-.3 1.954-1.051 3.021-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489-.039.034-.076.068-.111.135-.26.268-.449.601-.662.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.681-.09.188-.136.393-.132.601 0 .199.027.401.055.536.058.399.116.729.039.97-.248.68-.279 1.146-.105 1.485.174.334.535.469.939.601.811.2 1.91.135 2.775.599.926.467 1.866.671 2.616.47.526-.115.97-.463 1.208-.945.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.578.199.025.135.063.199.114.334l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.199-.812-.714-1.377v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135-.056-.038-.121-.062-.19-.064.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.561-3.369.027-2.152.237-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .396.062.584.198.191.135.33.332.439.533.105.259.158.459.166.724 0-.02.006-.04.006-.059v.104c-.002-.007-.004-.015-.004-.021l-.004-.024c-.002.243-.053.483-.15.706-.047.125-.119.24-.213.335-.029-.016-.057-.03-.088-.042-.105-.045-.199-.064-.285-.133-.071-.028-.145-.051-.219-.066.049-.059.145-.133.182-.198.053-.128.082-.264.088-.402v-.019c.002-.135-.018-.271-.061-.4-.045-.135-.101-.201-.183-.334-.084-.066-.167-.132-.267-.132h-.016c-.093 0-.176.03-.262.132-.095.094-.166.207-.205.334-.053.127-.084.264-.09.4v.019c.002.089.008.179.02.267-.193-.067-.438-.135-.607-.202-.01-.065-.016-.132-.018-.199v-.02c-.008-.264.043-.526.15-.769.082-.219.232-.406.43-.533.171-.129.379-.199.594-.199zm-2.962.059h.036c.142 0 .27.048.399.135.146.129.264.288.344.465.09.199.141.401.153.667v.004c.007.134.006.201-.002.266v.08c-.03.007-.056.018-.083.024-.152.055-.274.135-.393.2.012-.089.013-.179.003-.267v-.015c-.012-.133-.039-.199-.082-.333-.031-.102-.088-.193-.166-.267-.049-.045-.115-.068-.183-.064h-.021c-.071.006-.13.041-.186.132-.064.077-.105.171-.12.27-.027.108-.035.219-.023.331v.014c.012.135.037.201.081.334.045.134.097.2.165.268.011.009.021.018.034.024-.07.057-.117.07-.176.136-.037.028-.08.06-.131.068-.104-.125-.196-.26-.275-.402-.096-.21-.146-.438-.155-.667-.017-.226.011-.452.08-.668.055-.197.152-.379.283-.535.128-.133.26-.2.418-.2zm1.371 1.706c.331 0 .732.065 1.215.399.293.2.523.269 1.053.468h.003c.255.136.405.266.478.399v-.131c.073.147.078.318.016.47-.123.311-.516.644-1.064.843v.002c-.268.135-.501.333-.775.465-.276.135-.588.292-1.012.267-.152.008-.305-.015-.448-.067-.11-.06-.218-.126-.322-.198-.195-.135-.363-.332-.612-.465v-.005h-.005c-.4-.246-.616-.512-.686-.711-.069-.268-.005-.469.193-.6.224-.135.38-.271.483-.336.104-.074.143-.102.176-.131h.002v-.003c.169-.202.436-.469.839-.601.139-.036.294-.065.466-.065zm2.799 2.143c.359 1.417 1.197 3.475 1.736 4.473.286.534.855 1.659 1.102 3.024.156-.005.329.018.513.064.646-1.671-.546-3.467-1.089-3.966-.221-.201-.232-.335-.123-.335.589.534 1.365 1.572 1.646 2.757.129.535.159 1.104.021 1.67.067.028.135.061.205.067 1.032.534 1.413.938 1.23 1.537v-.043c-.061-.003-.12 0-.181 0h-.015c.151-.467-.182-.825-1.065-1.224-.915-.4-1.646-.336-1.771.465-.007.043-.012.066-.017.135-.068.023-.139.053-.209.064-.43.268-.662.669-.793 1.187-.13.533-.17 1.156-.205 1.869v.003c-.021.334-.171.838-.319 1.351-1.5 1.072-3.58 1.538-5.349.334-.111-.193-.246-.374-.402-.533-.074-.125-.168-.237-.275-.334.182 0 .338-.029.465-.067.145-.067.257-.188.314-.334.108-.267 0-.697-.345-1.163-.345-.467-.931-.995-1.788-1.521-.63-.399-.986-.87-1.15-1.396-.165-.534-.143-1.085-.015-1.645.245-1.07.873-2.11 1.274-2.763.107-.065.037.135-.408.974-.396.751-1.141 2.497-.122 3.854.038-.989.258-1.965.647-2.876.564-1.278 1.743-3.504 1.836-5.268.048.036.217.135.289.202.218.133.38.333.59.465.211.201.477.335.876.335.039.003.075.006.111.006.411 0 .729-.134.996-.268.29-.134.521-.334.74-.4h.005c.467-.135.836-.402 1.045-.7zm2.186 8.958c.037.601.343 1.245.882 1.377.588.134 1.434-.333 1.791-.765l.211-.009c.315-.008.577.01.847.267l.003.003c.208.199.305.531.391.876.085.401.154.78.409 1.066.486.527.645.906.636 1.14l.003-.006v.018l-.003-.012c-.015.262-.185.396-.498.595-.63.401-1.746.712-2.457 1.57-.618.737-1.371 1.139-2.036 1.191-.664.053-1.237-.2-1.574-.898l-.005-.003c-.21-.401-.12-1.025.056-1.69.176-.668.428-1.345.463-1.898.037-.714.076-1.335.195-1.814.12-.465.308-.797.641-.984l.045-.022zm-10.815.049h.01c.053 0 .105.005.157.014.376.055.706.333 1.023.752l.91 1.664.003.003c.243.533.754 1.064 1.189 1.638.434.598.77 1.131.729 1.57v.006c-.057.744-.479 1.148-1.125 1.294-.645.135-1.52.002-2.395-.464-.968-.536-2.118-.469-2.857-.602-.369-.066-.611-.201-.723-.401-.111-.199-.113-.601.123-1.23v-.003l.002-.003c.117-.334.03-.753-.027-1.119-.055-.401-.083-.709.043-.94.16-.334.396-.399.689-.533.295-.135.641-.202.916-.469h.002v-.003c.256-.268.445-.601.668-.838.19-.201.38-.336.663-.336zm7.159-9.074c-.435.201-.945.535-1.488.535-.542 0-.97-.267-1.279-.466-.155-.134-.28-.268-.374-.335-.164-.134-.144-.334-.074-.334.109.016.129.135.199.201.096.066.215.199.361.333.291.2.68.467 1.166.467.485 0 1.053-.267 1.398-.466.195-.135.445-.334.648-.467.156-.137.149-.268.279-.268.129.016.034.134-.147.333-.181.135-.461.335-.69.468v-.001zm-1.082-1.584V5.64c-.006-.019.013-.042.029-.05.074-.043.18-.027.26.004.063 0 .16.067.15.135-.006.049-.085.066-.135.066-.055 0-.092-.043-.141-.068-.052-.018-.146-.008-.163-.065zm-.551 0c-.02.058-.113.049-.166.066-.047.025-.086.068-.139.068-.051 0-.131-.019-.137-.068-.009-.066.088-.133.15-.133.081-.031.184-.047.259-.005.019.009.036.03.03.05v.021h.003z"/></svg>
+                <p>Made with the latest programming technologies to best suit you</p>
+                <i class="tect fas fa-share-alt-square"></i><i class="tect fas fa-computer"></i><i class="tect fas fa-project-diagram"></i>
+                 <div class="btn">
+                <button><i class="fas fa-download" style="font-size: 17px; padding: 10px;"></i>download now</button>
+                </div>
+            </div>
+         </div>
+        </div>
+
+    </header>
+   
+    
+    <div class="main-cont">
+    <i class="fas fa-arrow-down" style="font-size: 50px;"></i>
+ <h1 class="app">Our app Capabilities</h1>
+    <div class="cont">
+        <div class="card1">
+            <img src="https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/connected-globe-256.png" alt="">
+            <h4>whenever you are explore the weather</h4>
+        </div>
+
+        <div class="card1">
+            <img  src="https://cdn2.iconfinder.com/data/icons/business-and-finance-383/30/global_internet_technology_business_world_globe-_49-256.png" alt="">
+            <h4>When offline your app will keep the data collected about the weather around and you can actually use it in full functionality when offline</h4>
+        </div>
+        <div class="card1">
+            <img  src="https://cdn1.iconfinder.com/data/icons/icons-for-a-site-1/64/advantage_nearby-256.png" alt="">
+            <h4>Your data will be anonymous all the time to keep your privacy intact</h4>
+        </div>
+     
+    </div>   
+    <div class="card2">
+            <img  src="https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/server-rack-512.png" alt="">
+            <div class="h"><h4>When online our app won't use a lot of your bundle it just needs to be online and let the magic happens</h4></div>
+            <div class="box"></div>
+        </div>
+
+ <h1 class="pp" style="
+ text-align: center;
+  background-color: rgb(8, 8, 8);
+   color: white;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-family: cursive;
+ ">What people say about our app?</h1>
+
+    <section class="consent">
+       
+        <div class="card4">
+            <i class="fas fa-user"></i>
+            <h6><em>"CEO of ABC..."</em></h6>
+         
+            <p>"This app is really impressive sometimes I need to know the weather precisely and it never let me down"</p>
+               <div class="small">
+                <i class="fas fa-calendar"></i>
+               </div>
+        </div>
+        <div class="card4">
+            <i class="fas fa-user"></i>
+            <h6><em>"ARas Tech company..."</em></h6>
+         
+            <p>"This app is really impressive sometimes I need to know the whether precisely and it never let me down"</p>
+               <div class="small">
+                <i class="fas fa-share"></i>
+               </div>
+        </div>
+        <div class="card4">
+            <i class="fas fa-user"></i>
+            <h6><em>"ARas Doe..."</em></h6>
+         
+            <p>"if you are traveling abroad this app is your best option"</p>
+               <div class="small">
+                <i class="fas fa-location-dot"></i>
+               </div>
+        </div>
+    </section>
+
+
+    <div class="plans">
+        <h1>Choose your plan</h1>
+        <i id="co" class="fas fa-plane fa-beat-fade"></i>
+        <div class="plan">
+            <div class="cent">
+                <i class="fa-brands fa-percentage fa-fade">100</i>
+                <h2>Off</h2>
+            </div>
+            <div class="des">
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Forcasting weather globally whenever you are</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Additional travelling app</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Get all of app's new updates and news everyday and also giving feedback</p>
+            </div>
+            <button><i class="fa-brands fa-app-store"></i> Subscribe</button>
+        </div>
+        <div class="plan">
+            <div class="cent">
+                <i class="fa-brands fa-percentage fa-fade">100</i>
+                <h2>Off</h2>
+            </div>
+            <div class="des">
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Forcasting weather globally whenever you are</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Additional travelling app</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Get all of app's new updates and news everyday and also giving feedback</p>
+            </div>
+            <button><i class="fa-brands fa-app-store"></i> Subscribe</button>
+        </div>
+        <div class="plan">
+            <div class="cent">
+                <i class="fa-brands fa-percentage fa-fade">100</i>
+                <h2>Off</h2>
+            </div>
+            <div class="des">
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Forcasting weather globally whenever you are</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Additional travelling app</p>
+                <p><i class="fas fa-arrow-turn-right" style="color: lightblue;"></i> Get all of app's new updates and news everyday and also giving feedback</p>
+            </div>
+            <button><i class="fa-brands fa-app-store"></i> Subscribe</button>
+            
+        </div>
+        
+    </div>
+
+    <div class="download">
+        <h1>Get it on your device now</h1>
+        <button><i class="fa-brands fa-microsoft"></i> download for IOS</button>
+        <button><i class="fa-brands fa-android"></i> download for Andriod</button>
+    </div>
+
+  <footer class="foot">
+        <div class="side">
+            <h1>Our contact details<i class="fas fa-envelope"></i></h1>
+            <div class="email">
+                <p><i class="fas fa-phone"></i>:+20000220023</p>
+                <p><i class="fa-brands fa-google"></i>:Spycorp@gmail.com</p>
+                <h4>Copyright 2019-2022 <i class="fas fa-copyright"></i></h4>
+            </div>
+        </div>
+        <div class="side">
+            <h1><i class="fas fa-computer"></i> Our Social Platforms</h1>
+            <div class="icons">
+                <i style="font-size: 40px" class="fa-brands fa-facebook"></i>
+                <i style="font-size: 40px" class="fa-brands fa-twitter"></i>
+                <i style="font-size: 40px" class="fa-brands fa-tiktok"></i>
+                <i style="font-size: 40px" class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+        </div>
+        <div class="side"></div>
+    </footer>
+
+
+
+    </div>
+
+  
+
+
+</div>
+</body>
+<script src="js\anime.min.js"></script>
+<script src="js\preloader.js"></script>
+<script src="js\gsap.js"></script>
+<script src="js\side.js"></script>
+</html>

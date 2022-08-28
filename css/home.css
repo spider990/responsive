@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.backcolor img {
+    position: absolute;
+    z-index: -4;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #4646cc;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h2 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.serv {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.panel {
+    margin: 4px;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(2, 50%);
+    height: 400px;
+}
+
+.right {
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card-right {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.left  {
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.bene p {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: monospace;
+    padding: 12px;
+}
+
+.bene svg {
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.bene .fas{
+ font-size: 50px;
+ padding: 20px;
+}
+
+.bene .fas:hover {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    transition: .5s ease-in;
+}
+.bene button{
+    margin: 10px;
+    float: right;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.bene button:hover {
+    background-color: white;
+    color: black;
+    transition: .6s ease-in;
+}
+
+.pg i {
+    font-size: 200px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pg h1 {
+    color: white;
+}
+
+.main-cont {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+
+.cont {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    margin: 20px;
+    width: 400px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    margin-bottom: 200px;
+}
+
+.app {
+    font-size: 40px;
+    color: rgb(70, 70, 204);
+    font-weight: 800;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: app;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes app {
+    0% {
+        background-color: white;
+        color: #4646cc;
+        border-radius: 0;
+    }
+    100% 
+    {
+        background-color: #4646cc;
+        color: white;
+        border-radius: 20px;
+    }
+}
+
+.card2 {
+    display: flex;
+    background-color: rgb(8, 8, 8);
+    border-top-left-radius: 70px;
+}
+
+.card2 h4 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.h {
+ 
+    display: flex;
+    padding-top: 200px;
+}
+
+.consent {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.card4 {
+    border: 4px rgb(0, 0, 0) solid;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.7) ;
+}
+
+.card4 i {
+    color: #4646cc;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 60px;
+    float: left;
+    padding: 22px;
+ 
+}
+
+.small {
+    height: 100px;
+    width: 100px;
+    border-style: dotted;
+    margin: 20px;
+}
+.small .fas {
+    font-size: 30px;
+    padding: 30px;
+    background-color: transparent;
+
+}
+
+.card4 p {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: monospace;
+}
+.card4 h6 {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.foot {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+}
+
+.side {
+    height: 300px;
+
+}
+
+.side h1 {
+    color: white;
+    padding: 10px;
+    
+}
+
+.email p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    border-bottom: 1px white;
+}
+
+.email h4 {
+    margin: 20px;
+    padding-top: 50px;
+    color: white;
+}
+
+.icons {
+    text-align: center;
+    padding: 14px 12px;
+    height: 81%;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.icons i {
+    cursor: pointer;
+}
+.icons i:hover {
+    scale: 1.6;
+    transition: .6s ease-in;
+}
+
+.plans {
+
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    justify-content: space-between;
+    background-size: cover;
+
+}
+
+.plans #co {
+    font-size: 100px;
+    color: #4646cc;
+}
+
+.plans h1 {
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #4646cc;
+}
+
+.plan {
+
+    height: 700px;
+    width: 300px;
+}
+
+.prem-but {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.ios {
+    border: 1px solid red;
+    height: 200px;
+}
+
+
+
+.plan {
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    border: 0.5px #4646cc solid;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.plan button{
+    margin-top: 200px;
+  border: none;
+  width: 200px;
+  font-size: 19px;
+  background-color: #4646cc;
+  color: white;
+  padding: 12px; 
+  border-radius: 20px; 
+  cursor: pointer;
+} 
+
+.plan button:hover {
+    border: 1px solid #4646cc;
+    color: #4646cc;
+    background-color: white;
+    transition: .5s ease-in-out;
+}
+
+.plan:hover {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.cent {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #4646cc;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px black solid;
+}
+
+
+
+.des p {
+    padding: 12px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.download {
+    text-align: center;
+}
+
+.download button {
+    border: none;
+    color: white;
+    background-color: #4646cc;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.download button:hover {
+    background-color: white;
+    color: #4646cc;
+    border: 1px solid #4646cc;
+    transition: .5s ease-in;
+}
+

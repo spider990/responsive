@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body i {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+body h2 {
+    font-size: 40px;
+}

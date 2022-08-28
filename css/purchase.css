@@ -1,0 +1,42 @@
+.container h1 {
+    padding: 20px;
+    font-family: monospace;
+}
+
+
+
+.form-group {
+    padding: 12px;
+
+}
+
+.form-group label {
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #4646cc;
+    height: 50;
+    text-decoration: none;
+}
+
+form button {
+    border: 1px solid #4646cc;
+    padding: 12px;
+    color: #4646cc;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+form button:hover {
+    background-color: #4646cc;
+    color: white;
+    transition: .4s ease-in-out;
+}

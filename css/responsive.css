@@ -1,0 +1,132 @@
+@media screen and (max-height: 700px) {
+    body {
+        width: 100%;
+    }
+    .panel {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .plans #co {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .pg h1 {
+        font-size: 20px;
+    }
+    .main-cont .app {
+        margin-top: 250px;
+        font-size: 20px;
+    }
+    .cont  {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+    }
+    .cont .card1 {
+        margin-bottom: 20px;
+        width: 200px;
+        justify-content: center;
+        }
+    .card1 img {
+       margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    }
+
+    .card2 img {
+        height: 200px;
+        width: 200px;
+    }
+    .card2 .h{
+        padding: 10px;
+    }
+    .h {
+        font-size: 17px;
+    }
+    .card2 h1 {
+       margin-top: 10px;
+    }
+    .h h4 {
+        font-size: 20px;
+    }
+
+    .card4 {
+        margin: 20px;
+        width: 300px;
+    }
+     
+    .card4 p {
+        font-size: 18px;
+    }
+    .small {
+        height: 40px;
+        width: 40px;
+    }
+ 
+    .small .fas {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    
+    .phones i {
+    font-size: 70px;
+    }
+    .consent {
+        display: flex;
+        flex-direction: column;
+    }    
+    .plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .plans h1 {
+      font-size: 23px;
+      color: white;
+      text-align: center;
+    }
+
+    .cent {
+        color: white;
+    }
+
+
+    .plan button { 
+        margin-top: 0px;
+    }
+    .plan {
+        margin: 50px;
+        width: 250px;
+        height: 500px;
+    }
+
+    .foot {
+        display: flex;
+    }
+
+    .side h1 {
+        font-size: 18px;
+    }
+
+    .side p{
+        font-size: 16px;
+    }
+    footer {
+        margin-top: 10px;
+    }
+    .icons i{
+        margin-top: 50px;
+    }
+}
